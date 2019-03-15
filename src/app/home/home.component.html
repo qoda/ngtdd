@@ -1,0 +1,5 @@
+<h1>Hello {{ name }}!</h1>
+<form role="form" [formGroup]="form">
+  <input type="text" formControlName="name"/>
+  <button (click)="displayName()">Greet Me!</button>
+</form>
